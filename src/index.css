@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,199 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+
+.btn:focus {
+  box-shadow: none;
+}
+
+
+.search-btn {
+  border-color: gray; 
+  border-radius: 50%;
+  background-color: transparent;
+  color: gray;
+  transition: color 500ms ease, background-color 500ms ease,border-color 500ms ease;
+}
+
+.search-btn:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.search-inp {
+  border-color: gray;
+  border-radius: 3px;
+  border-width: 1px;
+  text-indent: 10px;
+  height: 30px;
+}
+
+.search-inp:focus {
+  border-color: black;
+  border-width: 1px;
+  outline: 0px;
+}
+
+.amazing-text {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  background-color: black;
+}
+
+.brand {
+  font-weight: 500;
+  font-size: 25px;
+  text-decoration: none;
+  color: gray;
+  transition: color 500ms ease;
+}
+
+.brand:hover{
+  color: white;
+}
+
+.header {
+  background-color: rgb(30, 30, 30);
+}
+
+.category {
+  font-family: 'Kaushan Script';
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(39, 38, 38);
+  transition: color 500ms ease;
+}
+
+.category:hover {
+  color: black;
+}
+
+.card-title {
+  font-family: 'Lobster', cursive;;
+}
+
+.card {
+  width: auto;
+}
+
+.like-icon {
+  cursor: pointer;
+  transition: color 500ms ease;
+  color: rgb(245, 83, 83);
+}
+
+.like-icon:hover {
+  color: red;
+}
+
+.liked{
+  color: red;
+}
+
+.donate {
+  color: rgb(10, 131, 10);
+  cursor: pointer;
+  transition: color 500ms ease;
+}
+
+.donate:hover {
+  color: rgb(1, 26, 1);
+}
+
+.like-number{
+  font-size: 17px;
+  user-select: none;
+}
+
+.like-number:hover {
+  cursor: pointer;
+}
+
+.trending-text {
+  font-family: 'Kaushan Script';
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(30, 211, 211);
+  transition: color 500ms ease;
+}
+
+.trending-text:hover {
+  color: rgb(10, 190, 190);
+}
+
+.category-top {
+  background-color: transparent;
+  color: gray;
+  transition: color 500ms ease;
+}
+
+.category-top:hover {
+  color: white;
+}
+
+.category-dropdown {
+  background-color: rgb(30, 30, 30);
+}
+
+.dropdown-item {
+  background-color: rgb(30, 30, 30);
+  color: gray;
+  transition: color 500ms ease;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.collapse-icon {
+  color: gray;
+  transition: color 500ms ease;
+}
+
+.collapse-icon:hover {
+  color: white;
+}
+
+@media (min-width: 576px) {
+  .set-position {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+}
+
+.share-icon{
+  color: gray;
+  transition: color 500ms ease;
+}
+
+.share-icon:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.footera {
+  background-color: black;
+}
+
+
+.footer-item {
+  color: gray;
+  transition: color 500ms ease;
+}
+
+.footer-item:hover {
+  cursor: pointer;
+  color: white;
 }

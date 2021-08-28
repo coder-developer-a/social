@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import Amazingtxt from './components/Amazingtxt';
+import Trending from './components/Trending';
+import Highway from './components/Highway'; 
+import Sports from './components/Sports';
+import Footera from './components/Footera';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container-fluid'>
+      <Header />
+      <Amazingtxt />
+      <Trending />
+      <Highway />
+      <Sports />
+      <Footera />
     </div>
   );
 }
