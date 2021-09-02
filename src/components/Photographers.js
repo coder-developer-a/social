@@ -8,7 +8,7 @@ const Photographers = () => {
                 </form>
             </div>
             <div className='row d-flex justify-content-center profile-table'>
-                <div className='col-10 col-sm-8'>
+                <div className='col col-sm-8'>
                     <table className='table table-borderless'>
                         <thead>
                             <tr>

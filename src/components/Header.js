@@ -26,7 +26,7 @@ const Header = () => {
                 <div className='row d-flex justify-content-center'>
                     <button className="navbar-toggler d-flex justify-content-center align-items-center category-top fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#categoryCollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <div className='d-inline fs-5'>Category</div>
-                        <div><i className="bi bi-caret-down-fill d-inline-flex"></i></div> 
+                        <div><i className="bi bi-caret-down-fill d-inline-flex ps-1 pt-2"></i></div> 
                     </button>
                     <div className="collapse navbar-collapse" id="categoryCollapse">
                         <ul className="navbar-nav">

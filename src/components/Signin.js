@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const Signin = () => {
     return (
         <div className='d-flex justify-content-center mt-5'>
-            <div className='col-8 col-sm-4 sign-in rounded'>
+            <div className='col-11 col-sm-4 sign-in rounded'>
                 <div className='text-center fs-2'>
                     <Link to='/' className='sign-in-brand'><i class="bi bi-camera"></i> Social</Link>
                 </div>

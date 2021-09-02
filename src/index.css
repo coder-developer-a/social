@@ -191,10 +191,22 @@ code {
   color: black;
 }
 
-.footera {
+.footer {
   background-color: black;
 }
 
+@media (min-width: 576px) {
+  .footer {
+    position: absolute;
+    bottom: 0px;
+  }
+}
+
+.footera {
+  position: absolute;
+  bottom: 0px;
+  background-color: black;
+}
 
 .footer-item {
   color: gray;
@@ -264,3 +276,4 @@ code {
   text-decoration: underline;
   cursor: pointer;
 }
+

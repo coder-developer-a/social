@@ -3,10 +3,10 @@ import Amazingtxt from './components/Amazingtxt';
 import Trending from './components/Trending';
 import Highway from './components/Highway'; 
 import Sports from './components/Sports';
-import Footera from './components/Footera';
+import Footer from './components/Footer';
 import Photographers from './components/Photographers';
 import Signin from './components/Signin';
-import Footerab from './components/Footerab';
+import Footera from './components/Footera';
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,7 +26,7 @@ function App() {
             <Trending />
             <Highway />
             <Sports />
-            <Footerab />
+            <Footera />
           </Route>
           <Route path="/Photographers">
             <Header />
@@ -36,17 +36,17 @@ function App() {
           <Route path='/category-trending'>
             <Header />
             <Trending />
-            <Footera />
+            <Footer />
           </Route>
           <Route path='/category-highway'>
             <Header />
             <Highway />
-            <Footera />
+            <Footer />
           </Route>
           <Route path='/category-sports'>
             <Header />
             <Sports />
-            <Footera />
+            <Footer />
           </Route>
           <Route path='/signin'>
             <Header />
