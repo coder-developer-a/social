@@ -8,7 +8,7 @@ import Trending3 from './Stuff/7.jpg'
 const Trending = () => {
     return (
         <>
-            <div className='row'>
+            <div className='row mt-3'>
                 <a href="#" className='trending-text text-center text-sm-start col-1'><h4>Trending</h4></a>
                 <hr />
             </div>

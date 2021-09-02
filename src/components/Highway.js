@@ -8,7 +8,7 @@ import Highway3 from './Stuff/11.jpg'
 const Highway = () => {
     return (
         <>
-            <div className='row'>
+            <div className='row mt-3'>
                 <a href="#" className='category text-center text-sm-start col-1'><h4>Highway</h4></a>
                 <hr />
             </div>

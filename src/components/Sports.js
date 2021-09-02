@@ -6,7 +6,7 @@ import Highway3 from './Stuff/14.jpg'
 const Sports = () => {
     return (
         <>
-            <div className='row'>
+            <div className='row mt-3'>
                 <a href="#" className='category text-center text-sm-start col-1'><h4>Sports</h4></a>
                 <hr />
             </div>

@@ -25,18 +25,8 @@ code {
 }
 
 
-.search-btn {
-  border-color: gray; 
-  border-radius: 50%;
-  background-color: transparent;
-  color: gray;
-  transition: color 500ms ease, background-color 500ms ease,border-color 500ms ease;
-}
-
-.search-btn:hover {
-  background-color: black;
-  color: white;
-  border-color: white;
+.search-span {
+  cursor: pointer;
 }
 
 .search-inp {
@@ -144,6 +134,7 @@ code {
 
 .category-top {
   background-color: transparent;
+  text-decoration: none;
   color: gray;
   transition: color 500ms ease;
 }
@@ -163,6 +154,11 @@ code {
 }
 
 .dropdown-item:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.dropdown-item:focus {
   background-color: transparent;
   color: white;
 }
@@ -208,4 +204,63 @@ code {
 .footer-item:hover {
   cursor: pointer;
   color: white;
+}
+
+.profile {
+  cursor: pointer;
+  color: rgb(40, 40, 40);
+  transition: color 500ms ease;
+}
+
+.profile:hover {
+  color: black;
+}
+
+
+.profile-search:focus {
+  outline: 0px;
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+.profile-likes {
+  color: red;
+}
+
+.profile-donated {
+  color: green;
+}
+
+.sign-in {
+  border: 1px solid gray;
+}
+
+
+.log-in {
+  color: white;
+  background-color: rgb(29, 29, 29);
+}
+
+.log-in:hover {
+  color: white;
+}
+
+.box-shadow:focus {
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+.sign-in-brand {
+  color: black;
+  text-decoration: none;
+}
+
+.sign-in-brand:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.sign-up {
+  text-decoration: underline;
+  cursor: pointer;
 }
