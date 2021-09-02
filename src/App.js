@@ -18,7 +18,7 @@ import {
 function App() {
   return (
     <div className='container-fluid'>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path='/' exact>
             <Header />
