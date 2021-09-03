@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Photographers from './components/Photographers';
 import Signin from './components/Signin';
 import Footera from './components/Footera';
+import Footerab from './components/Footerab';
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,7 +27,7 @@ function App() {
             <Trending />
             <Highway />
             <Sports />
-            <Footera />
+            <Footerab />
           </Route>
           <Route path="/Photographers">
             <Header />

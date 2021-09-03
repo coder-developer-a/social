@@ -208,6 +208,10 @@ code {
   background-color: black;
 }
 
+.footerab {
+  background-color: black;
+}
+
 .footer-item {
   color: gray;
   transition: color 500ms ease;
