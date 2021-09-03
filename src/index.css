@@ -15,6 +15,10 @@ code {
     monospace;
 }
 
+
+
+
+
 .navbar-toggler:focus {
   box-shadow: none;
 }
@@ -191,26 +195,28 @@ code {
   color: black;
 }
 
-.footer {
-  background-color: black;
+.app {
+  position: relative;
+  bottom: 0px;
 }
 
-@media (min-width: 576px) {
-  .footer {
-    position: absolute;
-    bottom: 0px;
-  }
+.footer {
+  background-color: black;
+  
 }
 
 .footera {
-  position: absolute;
-  bottom: 0px;
   background-color: black;
 }
 
-.footerab {
-  background-color: black;
+
+
+
+.sign-in {
+  border: 1px solid gray;
 }
+
+
 
 .footer-item {
   color: gray;
@@ -247,10 +253,6 @@ code {
   color: green;
 }
 
-.sign-in {
-  border: 1px solid gray;
-}
-
 
 .log-in {
   color: white;
@@ -280,4 +282,3 @@ code {
   text-decoration: underline;
   cursor: pointer;
 }
-

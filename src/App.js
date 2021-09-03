@@ -4,10 +4,11 @@ import Trending from './components/Trending';
 import Highway from './components/Highway'; 
 import Sports from './components/Sports';
 import Footer from './components/Footer';
+import Footera from './components/Footera';
 import Photographers from './components/Photographers';
 import Signin from './components/Signin';
-import Footera from './components/Footera';
-import Footerab from './components/Footerab';
+import { useState } from 'react';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,7 +19,7 @@ import {
 
 function App() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid app'>
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path='/' exact>
@@ -27,7 +28,7 @@ function App() {
             <Trending />
             <Highway />
             <Sports />
-            <Footerab />
+            <Footer />
           </Route>
           <Route path="/Photographers">
             <Header />
@@ -37,17 +38,17 @@ function App() {
           <Route path='/category-trending'>
             <Header />
             <Trending />
-            <Footer />
+            <Footera />
           </Route>
           <Route path='/category-highway'>
             <Header />
             <Highway />
-            <Footer />
+            <Footera />
           </Route>
           <Route path='/category-sports'>
             <Header />
             <Sports />
-            <Footer />
+            <Footera />
           </Route>
           <Route path='/signin'>
             <Header />
