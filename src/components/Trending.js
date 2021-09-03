@@ -13,9 +13,9 @@ const Trending = () => {
                 <hr />
             </div>
             <div className='row d-flex justify-content-around align-items-center'>
-                <div className='col-12 col-sm-6 col-lg-4'><Card imageSource={Trending1} itemTitle='Gray Build' likes='10'/></div>
-                <div className='col-12 col-sm-6 col-lg-4'><Card imageSource={Trending2} itemTitle='Circle Bridge' likes='14'/></div>
-                <div className='col-12 col-sm-6 col-lg-4'><Card imageSource={Trending3} itemTitle='Orange and Black' likes='8'/></div>
+                <div className='col-12 col-sm-6 col-xl-4'><Card imageSource={Trending1} itemTitle='Gray Build' likes='10'/></div>
+                <div className='col-12 col-sm-6 col-xl-4'><Card imageSource={Trending2} itemTitle='Circle Bridge' likes='14'/></div>
+                <div className='col-12 col-sm-6 col-xl-4'><Card imageSource={Trending3} itemTitle='Orange and Black' likes='8'/></div>
             </div>
         </>
     )
