@@ -13,7 +13,7 @@ const Signin = () => {
                 </div>
                 <div className='mx-2 mt-2'>
                     <label htmlFor="password-input" className='form-label'>Password</label>
-                    <input type="text" className='form-control box-shadow' placeholder='Enter password' />
+                    <input type="password" className='form-control box-shadow' placeholder='Enter password' />
                 </div>
                 <div className='ms-3 mt-4 mb-4'>
                     <button className='btn log-in'>Log in</button>
